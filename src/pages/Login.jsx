@@ -78,20 +78,6 @@ function Login() {
               </span>
             </div>
 
-            {/* Remember + Forgot Password */}
-            <div className="flex items-center justify-between text-sm">
-              <label className="flex items-center">
-                <input
-                  type="checkbox"
-                  checked={remember}
-                  onChange={() => setRemember(!remember)}
-                  className="mr-2"
-                />
-                Remember me
-              </label>
-              <a href="#" className="text-purple-600 hover:underline">Forgot password?</a>
-            </div>
-
             {/* Submit Button */}
             <button
               type="submit"
@@ -100,10 +86,7 @@ function Login() {
               Sign In
             </button>
 
-            {/* Signup Link */}
-            <p className="text-center text-sm text-gray-600 dark:text-gray-300">
-              New here? <a href="#" className="text-purple-600 hover:underline">Create an Account</a>
-            </p>
+            
           </form>
         </div>
       </div>
