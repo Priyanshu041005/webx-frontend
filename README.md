@@ -18,7 +18,7 @@ A responsive and modern **React + Tailwind CSS** based frontend app that lets us
 
 ## Project Structure
 
-
+```
 webx-frontend/
 ├── public/
 │   └── index.html
@@ -39,7 +39,7 @@ webx-frontend/
 ├── tailwind.config.js
 ├── postcss.config.js
 └── README.md
-
+```
 
 
 ## Setup Instructions
