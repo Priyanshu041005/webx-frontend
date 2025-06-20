@@ -10,7 +10,6 @@ function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
-  const [remember, setRemember] = useState(true);
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -77,6 +76,8 @@ function Login() {
                 {showPassword ? <FaEyeSlash /> : <FaEye />}
               </span>
             </div>
+
+            
 
             {/* Submit Button */}
             <button
